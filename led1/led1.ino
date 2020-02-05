@@ -104,7 +104,7 @@ void loop()
     }
   
   if(i>7){i=0;}
-  EEPROM.write(0,i);
+  EEPROM.update(0,i);
   if(i==7){
     rainbow();
     }
